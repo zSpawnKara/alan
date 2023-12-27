@@ -55,7 +55,11 @@ if __name__ == '__main__':
         k = int(input("Paralel kenarın alt taban uzunluğu: "))
         y = int(input("Paralel kenarın yüksekliği: "))
         paralelkenar(k, y)
-
+    
+    elif secim == 5:
+        a = int(input("Eşkenar dörtgenin alt kenar uzunluğu: "))
+        y = int(input("Eşkenar dörtgenin yan kenar uzunluğu: "))
+        eskenardortgen(a, y)
 
 
     else:
