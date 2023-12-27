@@ -60,6 +60,11 @@ if __name__ == '__main__':
         a = int(input("Eşkenar dörtgenin alt kenar uzunluğu: "))
         y = int(input("Eşkenar dörtgenin yan kenar uzunluğu: "))
         eskenardortgen(a, y)
+    elif secim == 6:
+        a = int(input("Eşkenar dörtgenin alt kenar uzunluğu: "))
+        y = int(input("Eşkenar dörtgenin yan kenar uzunluğu: "))
+        eskenardortgen(a, y)
+
 
 
     else:
